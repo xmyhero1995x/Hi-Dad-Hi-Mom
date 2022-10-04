@@ -1,0 +1,12 @@
+.teacher-card {
+  img {
+    border: 1px solid $white;
+    z-index: 2;
+  }
+
+  .desc-box {
+    border-radius: 0px 8px 8px 8px;
+    margin-left: 3.5rem;
+    padding-left: 4.8rem;
+  }
+}

@@ -1,0 +1,38 @@
+.program-form {
+  .circle-bg {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 25%;
+    left: 20%;
+
+    /* Blue/Dark */
+
+    background: #39AAE1;
+    filter: blur(50px);
+
+
+    @include media-breakpoint-up(xl) {
+      width: 300px;
+      height: 300px;
+      top: 35%;
+      left: 40%;
+      filter: blur(90px);
+
+    }
+  }
+
+  input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.4rem;
+    background: $white;
+    border-radius: 8px;
+    border: none;
+  }
+
+  .decorate {
+    top: 0;
+  }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+
+	{% include './index/head.twig' %}
+
+	<body>
+
+		{% include './index/header.twig' %}
+
+		<div class="wrapper">
+
+			{% include './contacts/contacts-home.twig' %}
+
+			{% include './contacts/contacts-program.twig' %}
+
+		</div>
+
+		{% include './index/footer.twig' %}
+
+
+		{% for item in externalscripts %}
+			<script src="{{ item }}"></script>
+		{% endfor %}
+
+		<script src="./js/index.js"></script>
+	</body>
+</html>

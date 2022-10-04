@@ -1,0 +1,9 @@
+.development {
+  .developments-card-second {
+    @include media-breakpoint-up(xl) {
+      position: absolute;
+      max-width: 26.5rem;
+      right: 40px;
+    }
+  }
+}

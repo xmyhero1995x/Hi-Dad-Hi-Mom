@@ -1,0 +1,13 @@
+@import '~swiper/swiper';
+
+
+.swiper-wrapper {
+  flex-direction: row;
+
+
+  @include media-breakpoint-up(xl) {
+    // flex-wrap: wrap;
+    width: 100%;
+    min-width: 200rem
+  }
+}

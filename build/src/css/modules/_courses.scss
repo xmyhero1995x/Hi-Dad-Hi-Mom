@@ -1,0 +1,10 @@
+.course-card {
+  // display: flex;
+  flex-direction: column;
+  border-radius: 1.6rem;
+  padding: 1.6rem;
+
+  @include media-breakpoint-up(xl) {
+    padding: 3.2rem;
+  }
+}

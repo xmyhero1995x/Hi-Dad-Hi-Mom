@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+
+	{% include './index/head.twig' %}
+
+	<body>
+
+		{% include './index/header.twig' %}
+
+		<div class="wrapper">
+
+			{% include './index/home.twig' %}
+
+			{% include './index/whatwedo.twig' %}
+
+			{% include './index/about-us.twig' %}
+
+			{% include './index/talking-about-us.twig' %}
+
+			{% include './index/help.twig' %}
+
+			{% include './index/certificates.twig' %}
+
+			{% include './index/additional-programs.twig' %}
+
+			{% include './index/gallery.twig' %}
+
+		</div>
+
+		{% include './index/footer.twig' %}
+
+
+		{% for item in externalscripts %}
+			<script src="{{ item }}"></script>
+		{% endfor %}
+
+		<script src="./js/index.js"></script>
+	</body>
+</html>
