@@ -1,9 +1,0 @@
-.video-img {
-  border-radius: 3.2rem;
-  border: 1px solid $white;
-
-  @include media-breakpoint-up(xl) {
-    height: 35rem;
-    width: 58rem;
-  }
-}
